@@ -45,8 +45,8 @@ In the component inspector, replace the Model value with the following:
 
 ```
 {
-  "greeting": "Hello, ",  
-  "username": {{ current_user.fullName }},
+  "username": {{"Hello, " +  current_user.fullName }},
+  ""headline": "",
   "message": "Welcome to custom components!",
   "yesQuery": "yesQuery",
   "noQuery": "noQuery",
